@@ -22,13 +22,6 @@ const SearchBox = (props) => {
         </button>
       </div>
     </>
-      // <input
-      //   className='form-control'
-      //   value={props.value}
-      //   onChange={(event) => props.setSearchValue(event.target.value)}
-      //   placeholder='Type to search...'
-      // ></input>
-      // {/* <button className='search-button' type='button' onClick={props.getListMovies}>Search</button> */}
   );
 };
 
