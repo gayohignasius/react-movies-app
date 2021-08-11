@@ -2,7 +2,7 @@
 
 # Instruction for this web app:
 
-First things first, you could clone the project using this command: git clone https://github.com/gayohignasius/react-movies-app.git and then you can run it locally using yarn start or npm start.
+First things first, you could clone the project using this command: git clone https://github.com/gayohignasius/react-movies-app.git. Before running the project, make sure to install all the packages using npm install or yarn command and then you can run it locally using yarn start or npm start.
 
 1. When first running, it only shows search bar and search button.
 2. You could input the movie keyword you want to search at the search bar field and click the search button to show the movie.
