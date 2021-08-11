@@ -1,0 +1,148 @@
+html body {
+	background: #141414;
+	color: #ffffff;
+  height: 100vh;
+}
+.header {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.c-100 {
+  width: 100%;
+}
+
+.centered-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.movie-container {
+  margin-top: 25px;
+}
+
+.movie-title {
+  font-size: 16px;
+  margin: auto;
+}
+
+div .movie {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: auto;
+  color: black;
+  background-color: #f1f2f6;
+  border: 1px solid #ccc;
+  position: relative;
+	transition: transform 0.2s;
+  /* cursor: pointer; */
+
+}
+
+div .movie:hover {
+  border: 1px solid #777;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.movie img {
+  width: 100%;
+  height: 400px;
+}
+.detail-title {
+  margin: 25px 0px 0px 25px;
+}
+
+.detail-title p span {
+  font-size: 18px;
+}
+
+.detail-card-body {
+  margin-top: 5px;
+  margin-left: 25px;
+  width: 300px;
+  height: auto;
+  color: black;
+  background-color: #f1f2f6;
+  border: 1px solid #ccc;
+  position: relative;
+}
+/* 
+.movie > div.movie-info {
+  margin-left: 10px;
+} */
+
+a {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+}
+
+img .image-detail {
+  width: 300px;
+}
+/* 
+.movie-info > a:hover, a:visited {
+  text-decoration: underline;
+  color: rgb(66, 126, 218);
+} */
+/* 
+.movie-info p {
+  margin: 0;
+} */
+
+div .movie-detail {
+  display: flex;
+  flex-direction: row;
+
+}
+
+div .movie-detail > p {
+  margin: 50px 0px 0px 50px;
+}
+
+.plot {
+  font-style: italic;
+  margin: 25px 0px 0px 25px;
+}
+
+/* .image-container {
+	position: relative;
+	transition: transform 0.2s;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+} */
+
+.overlay {
+	position: absolute;
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	transition: 0.5s ease;
+	opacity: 0;
+	bottom: 0;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+/* 
+@media screen and(min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+} */
