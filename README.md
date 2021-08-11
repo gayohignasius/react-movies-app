@@ -11,4 +11,4 @@ First things first, you could clone the project using this command: git clone ht
 5. If the button detail on the list is clicked, will redirect you to the new page contains detailed information about the movie.
 
 # note
-1. the unit test for components and autocomplete searchbox are not included in this project
+1. the unit test for components and autocomplete searchbox are not included yet in this project
